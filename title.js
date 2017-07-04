@@ -5,8 +5,8 @@ export default class Title extends Component {
         const { children } = this.props;
 
         return (
-            <div style={}>
-                <div>{children}</div>
+            <div style={styles.header}>
+                <div style={styles.title}>{children}</div>
             </div>
         )
     }

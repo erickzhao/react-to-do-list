@@ -26,7 +26,7 @@ export default class Input extends Component {
         const { value } = this.state;
 
         return (
-            <input style={}
+            <input style={styles.input}
             type={'text'}
             value={value} 
             placeholder={placeholder}
