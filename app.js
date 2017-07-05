@@ -49,6 +49,9 @@ export default class App extends Component {
 
 const styles = {
   container: {
+    fontFamily: 'sans-serif',
+    maxWidth: '500px',
+    margin: '0 auto',
     display: 'flex',
     flexDirection: 'column',
   }
