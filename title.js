@@ -6,7 +6,7 @@ export default class Title extends Component {
 
         return (
             <div style={styles.header}>
-                <div style={styles.title}>{children}</div>
+                <h1 style={styles.title}>{children}</h1>
             </div>
         )
     }
