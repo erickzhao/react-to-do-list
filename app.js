@@ -7,7 +7,7 @@ import Title from './Title';
 export default class App extends Component {
 
     state = {
-        todos: ['Click to Remove', 'First thing', 'Second thing', 'Third thing']
+        todos: ['Click to Remove', 'Wash dishes', 'Fold clothes', 'Take out trash']
     };
 
     onAddTodo = (text) => {
@@ -16,6 +16,7 @@ export default class App extends Component {
         this.setState({
             todos: [text, ...todos]
         });
+        console.log(this.state);
     };
 
     onRemoveTodo = (index) => {
